@@ -5,10 +5,10 @@
 # This work is licensed under the terms of the MIT license.
 # For a copy, see <https://opensource.org/licenses/MIT>.
 
-timeout =
-other_vehicle_distance = 
-other_vehicle_speed = 
-
+timeout =                                  #Simulation duration
+other_vehicle_distance =                   #distance between ego vehicle and lead vehicle
+other_vehicle_speed =                      #speed  of lead vehicle
+                                           
 import py_trees
 import carla
 import time
