@@ -1,6 +1,6 @@
 # SSTSS-GenSim-A-Modular-Tool-Chain-for-End-to-End-Safety-Evaluation-of-Automated-Driving-Systems
 
-1. **Results** - Contains the outputs produced for each input parameter configuration, covering all stages from scenario execution to the Data Visualization and Report Module. It contains FollowLeadVehicle.json,FollowLeadVehicle.log, FollowLeadVehicle_data.csv, FollowLeadVehicle_jerk.png, FollowLeadVehicle_RSS.png, and FollowLeadVehicle_summary.txt </br>
+1. **Results** - Contains the outputs produced for each input parameter configuration, covering all stages from Scenario Execution to the Data Visualization and Report Module. It contains FollowLeadVehicle.json,FollowLeadVehicle.log, FollowLeadVehicle_data.csv, FollowLeadVehicle_jerk.png, FollowLeadVehicle_RSS.png, and FollowLeadVehicle_summary.txt </br>
 
 2. **Euro-NCAP-SceanrioCatalog.pdf**  - List of sceanrio provided by Euro-NCAP. </br>
 
