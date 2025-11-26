@@ -1,0 +1,48 @@
+Starting Scenario Runner...
+pygame 1.9.6
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Not all ego vehicles ready. Waiting ... 
+Preparing scenario: FollowLeadingVehicle_1
+ScenarioManager: Running scenario FollowLeadVehicle
+[LeadVehicleController] Initialized at Location(x=132.466516, y=133.424822, z=-0.722718)
+[LeadVehicleController] Reached cruising speed smoothly: 2.78 m/s
+[LeadVehicleController] Triggering braking at 80 m!
+[LeadVehicleController] Starting braking... braking_distance=0.44 m, deceleration=8.83 m/s²
+[LeadVehicleController] Vehicle stopped. Waiting...
+[LeadVehicleController] Terminated.
+[LeadVehicleController] Terminated.
+
+ ======= Results of Scenario: FollowLeadVehicle ---- TIMEOUT =======
+
+ > Ego vehicles:
+Actor(id=197, type=vehicle.lexus.utlexus); 
+
+ > Other actors:
+Actor(id=206, type=vehicle.nissan.patrol); 
+
+ > Simulation Information
+╒═════════════════════════════════╤═════════════════════╕
+│ Start Time                      │ 2025-10-14 17:05:42 │
+├─────────────────────────────────┼─────────────────────┤
+│ End Time                        │ 2025-10-14 17:06:42 │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (System Time)          │ 27.71s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Duration (Game Time)            │ 60.05s              │
+├─────────────────────────────────┼─────────────────────┤
+│ Ratio (System Time / Game Time) │ 0.461s               │
+╘═════════════════════════════════╧═════════════════════╛
+
+ > Criteria Information
+╒════════════════════════╤══════════════════════╤═════════╤══════════════╕
+│ Actor                  │ Criterion            │ Result  │ Actual Value │
+├────────────────────────┼──────────────────────┼─────────┼──────────────┤
+│ lexus.utlexus (id=197) │ CollisionTest (Req.) │ SUCCESS │ 0            │
+├────────────────────────┼──────────────────────┼─────────┼──────────────┤
+│                        │ Timeout (Req.)       │ FAILURE │ 60.05        │
+╘════════════════════════╧══════════════════════╧═════════╧══════════════╛
+ ===================================================================
+
+Not all scenario tests were successful
+[LeadVehicleController] Terminated.
+No more scenarios .... Exiting
