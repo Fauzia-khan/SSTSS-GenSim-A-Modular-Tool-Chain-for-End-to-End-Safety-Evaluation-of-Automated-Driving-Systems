@@ -1,0 +1,13 @@
+Starting Scenario Runner...
+Traceback (most recent call last):
+  File "scenario_runner.py", line 652, in main
+    result = scenario_runner.run()
+  File "scenario_runner.py", line 552, in run
+    result = self._run_scenarios()
+  File "scenario_runner.py", line 479, in _run_scenarios
+    result = self._load_and_run_scenario(config)
+  File "scenario_runner.py", line 376, in _load_and_run_scenario
+    if not self._load_and_wait_for_world(config.town, config.ego_vehicles):
+  File "scenario_runner.py", line 334, in _load_and_wait_for_world
+    vehicles = self.client.get_world().get_actors().filter('vehicle.*')
+RuntimeError: time-out of 10000ms while waiting for the simulator, make sure the simulator is ready and connected to 127.0.0.1:2000

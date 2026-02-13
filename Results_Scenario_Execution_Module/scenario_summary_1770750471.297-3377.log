@@ -1,0 +1,23 @@
+Starting Scenario Runner...
+Traceback (most recent call last):
+  File "scenario_runner.py", line 440, in _load_and_run_scenario
+    self.manager.run_scenario()
+  File "/home/fauzia/scenario_runner/srunner/scenariomanager/scenario_manager.py", line 135, in run_scenario
+    if timestamp:
+  File "scenario_runner.py", line 151, in _signal_handler
+    if not self.manager.get_running_status():
+  File "/home/fauzia/scenario_runner/srunner/scenariomanager/scenario_manager.py", line 193, in get_running_status
+    return self._watchdog.get_status()
+AttributeError: 'NoneType' object has no attribute 'get_status'
+Not all ego vehicles ready. Waiting ... 
+Preparing scenario: FollowLeadingVehicle_1
+ScenarioManager: Running scenario FollowLeadVehicle
+[LeadVehicleController] Initialized at Location(x=119.999802, y=133.423325, z=-0.002114)
+[LeadVehicleController] Reached cruising speed smoothly: 1.94 m/s
+[LeadVehicleController] Triggering braking at 80 m!
+[LeadVehicleController] Starting braking... braking_distance=0.21 m, deceleration=8.83 m/s²
+[LeadVehicleController] Vehicle stopped. Waiting...
+[LeadVehicleController] Resuming motion.
+[LeadVehicleController] Terminated.
+'NoneType' object has no attribute 'get_status'
+No more scenarios .... Exiting
